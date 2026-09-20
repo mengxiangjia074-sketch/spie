@@ -1,0 +1,6 @@
+dataset/
+ground_truth/fpic_yolo/
+runs/
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,6 @@
+# Computar LensConnect (Silicon Labs HID-to-SMBus)
+SUBSYSTEM=="usb", ATTR{idVendor}=="10c4", ATTR{idProduct}=="8d08", GROUP="plugdev", MODE="0660", TAG+="uaccess"
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="8d08", GROUP="plugdev", MODE="0660", TAG+="uaccess"
+
+# XY stage FT232 USB-to-RS485 adapter
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", GROUP="plugdev", MODE="0660", TAG+="uaccess", SYMLINK+="lensdetect-stage"

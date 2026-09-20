@@ -1,0 +1,56 @@
+# Operating system and editor files
+.DS_Store
+._*
+__MACOSX/
+.claude/
+.idea/
+.vscode/
+*~
+
+# Python caches, environments, and test artifacts
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+/.venv/
+/venv/
+/env/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Datasets and generated ground truth
+/data/
+**/dataset/
+**/ground_truth/fpic_yolo/
+
+# Model weights and serialized training artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.tar.gz
+
+# Training, inference, calibration, and application output
+**/runs/
+**/results/
+**/working_data/
+**/calibration/output/
+
+# This nested checkout has its own Git history and is not configured as a submodule.
+/yolov8/tensorrt-alpha/
