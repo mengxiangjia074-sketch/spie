@@ -1,0 +1,25 @@
+{
+  "weights": "/home/vision/Users/DSC/results/runs/yolov8_seg_1000/yolov8l_seg_s1/weights/best.pt",
+  "images": [
+    {
+      "image": "r00_c00_undistorted.png",
+      "detections": 40,
+      "output": "results/yolov8_seg_1000_pcb_image/r00_c00_undistorted"
+    },
+    {
+      "image": "r00_c01_undistorted.png",
+      "detections": 25,
+      "output": "results/yolov8_seg_1000_pcb_image/r00_c01_undistorted"
+    },
+    {
+      "image": "r01_c00_undistorted.png",
+      "detections": 63,
+      "output": "results/yolov8_seg_1000_pcb_image/r01_c00_undistorted"
+    },
+    {
+      "image": "r01_c01_undistorted.png",
+      "detections": 35,
+      "output": "results/yolov8_seg_1000_pcb_image/r01_c01_undistorted"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "weights": "/home/vision/Users/DSC/results/runs/yolov8_seg_1000/yolov8l_seg_s1/weights/best.pt",
+  "test_split": "/home/vision/Users/DSC/yolov8/yolov8_pcb/ground_truth/fpic_yolo/images/val",
+  "definitions": {
+    "matching_iou": 0.5,
+    "boundary_tolerance_px": 2,
+    "small_area_threshold_px": 4096,
+    "macro_f1": "mean of class-aware instance F1 values",
+    "joint_f1": "micro F1 of all IoU-matched instances with correct class",
+    "center_error": "mean centroid Euclidean distance in pixels"
+  },
+  "mask_ap50": 0.9547591589126071,
+  "mask_ap75": 0.9547591589126071,
+  "mask_ap50_95": 0.7834347669257531,
+  "boundary_f1": 0.7773725615310443,
+  "boundary_iou": 0.5458816408833816,
+  "macro_f1": 0.8273911307532389,
+  "joint_f1": 0.775,
+  "small_component_recall": 1.0,
+  "center_error_px_mean": 2.5923871129144316,
+  "center_error_px_median": 1.8027756377319946,
+  "matched_instances": 93,
+  "predicted_instances": 147,
+  "ground_truth_instances": 93,
+  "class_f1": {
+    "resistors": 0.8548387096774194,
+    "capacitors": 0.676056338028169,
+    "ICs": 0.6060606060606061,
+    "inductors": 1.0,
+    "diodes": 1.0
+  },
+  "class_stats": {
+    "0": {
+      "tp": 53,
+      "fp": 18,
+      "fn": 0
+    },
+    "1": {
+      "tp": 24,
+      "fp": 23,
+      "fn": 0
+    },
+    "2": {
+      "tp": 10,
+      "fp": 13,
+      "fn": 0
+    },
+    "3": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0
+    },
+    "4": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "ultralytics": {
+    "metrics/precision(B)": 0.7766536785993263,
+    "metrics/recall(B)": 0.9808489073996949,
+    "metrics/mAP50(B)": 0.9547591589126071,
+    "metrics/mAP50-95(B)": 0.8572717513755006,
+    "metrics/precision(M)": 0.7766536785993263,
+    "metrics/recall(M)": 0.9808489073996949,
+    "metrics/mAP50(M)": 0.9547591589126071,
+    "metrics/mAP50-95(M)": 0.7834347669257531,
+    "fitness": 1.6407065183012537
+  }
+}

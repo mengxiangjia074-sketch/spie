@@ -1,0 +1,23 @@
+{
+  "data": "/home/vision/Users/DSC/yolov8/yolov8_pcb/ground_truth/fpic_yolo",
+  "weights": "/home/vision/Users/DSC/models/maskrcnn_resnet50_fpn_v2_coco-73cbd019.pth",
+  "output": "/home/vision/Users/DSC/results/runs/maskrcnn_s1_1000",
+  "epochs": 1000,
+  "patience": 1000,
+  "min_delta": 0.001,
+  "batch_size": 2,
+  "workers": 4,
+  "learning_rate": 0.0025,
+  "seed": 42,
+  "device": "cuda",
+  "classes": [
+    "resistors",
+    "capacitors",
+    "ICs",
+    "inductors",
+    "diodes"
+  ],
+  "train_images": 309,
+  "val_images": 32,
+  "device_name": "NVIDIA GeForce RTX 4080 SUPER"
+}

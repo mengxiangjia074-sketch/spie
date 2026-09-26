@@ -1,0 +1,24 @@
+{
+  "model": "Mask R-CNN ResNet-50 FPN v2",
+  "weights": "/home/vision/Users/DSC/results/runs/maskrcnn_s1_1000/best.pth",
+  "checkpoint_epoch": 15,
+  "input": "/home/vision/Users/DSC/pcb_image",
+  "output": "/home/vision/Users/DSC/results/maskrcnn_s1_1000_pcb_image",
+  "confidence_threshold": 0.25,
+  "max_small_mask_area_px": 20000,
+  "max_ic_mask_area_px": 100000,
+  "total_detections": 157,
+  "class_totals": {
+    "resistors": 26,
+    "capacitors": 120,
+    "ICs": 9,
+    "inductors": 2,
+    "diodes": 0
+  },
+  "images": [
+    {"image": "r00_c00_undistorted.png", "detections": 39},
+    {"image": "r00_c01_undistorted.png", "detections": 25},
+    {"image": "r01_c00_undistorted.png", "detections": 60},
+    {"image": "r01_c01_undistorted.png", "detections": 33}
+  ]
+}

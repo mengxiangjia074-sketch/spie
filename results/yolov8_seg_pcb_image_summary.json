@@ -1,0 +1,21 @@
+{
+  "model": "YOLOv8l-Seg",
+  "weights": "/home/vision/Users/DSC/results/runs/yolov8_seg_1000/yolov8l_seg_s1/weights/best.pt",
+  "input": "/home/vision/Users/DSC/pcb_image",
+  "output": "/home/vision/Users/DSC/results/yolov8_seg_1000_pcb_image",
+  "confidence_threshold": 0.25,
+  "total_detections": 163,
+  "class_totals": {
+    "resistors": 43,
+    "capacitors": 103,
+    "ICs": 3,
+    "inductors": 14,
+    "diodes": 0
+  },
+  "images": [
+    {"image": "r00_c00_undistorted.png", "detections": 40},
+    {"image": "r00_c01_undistorted.png", "detections": 25},
+    {"image": "r01_c00_undistorted.png", "detections": 63},
+    {"image": "r01_c01_undistorted.png", "detections": 35}
+  ]
+}

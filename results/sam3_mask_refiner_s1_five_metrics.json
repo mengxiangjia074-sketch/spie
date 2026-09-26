@@ -1,0 +1,15 @@
+{
+  "model": "SAM3 + quality-aware classifier + Mask Refiner",
+  "quality_head": "/home/vision/Users/DSC/results/runs/sam3_quality_1000/classifier_quality_best.pt",
+  "quality_head_best_epoch": 309,
+  "mask_refiner": "/home/vision/Users/DSC/results/runs/sam3_refiner_1000/mask_refiner_best.pt",
+  "mask_refiner_best_epoch": 134,
+  "test_images": 32,
+  "ground_truth_instances": 93,
+  "joint_f1": 0.8923076923076924,
+  "macro_f1": 0.8492322549492999,
+  "mask_ap50_95": 0.6986218558435653,
+  "boundary_f1": 0.7276143476914675,
+  "small_component_recall": 0.9841269841269841,
+  "raw_metrics": "/home/vision/Users/DSC/results/sam3_mask_refiner_1000_evaluation/metrics.json"
+}

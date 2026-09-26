@@ -1,0 +1,27 @@
+{
+  "method": "quality-aware SAM3 + learned mask refiner",
+  "refiner_checkpoint": "/home/vision/Users/DSC/results/runs/sam3_refiner_1000/mask_refiner_best.pt",
+  "mask_threshold": 0.55,
+  "eval_split": "val",
+  "eval_group": null,
+  "AP@0.50": 0.860586233616661,
+  "AP@0.75": 0.8314909955214229,
+  "AP50:95": 0.6986218558435653,
+  "Boundary F1": 0.7276143476914675,
+  "Boundary IoU": 0.4942462037796344,
+  "Macro-F1": 0.8492322549492999,
+  "Joint-F1": 0.8923076923076924,
+  "Small Component Recall": 0.9841269841269841,
+  "Center Error Mean px": 2.6429058888883374,
+  "Center Error Median px": 1.915488609201813,
+  "ground_truth_instances": 93,
+  "predicted_instances": 102,
+  "matched_instances": 87,
+  "class_f1": {
+    "resistors": 0.9724770642201834,
+    "capacitors": 0.8070175438596493,
+    "ICs": 0.6666666666666666,
+    "inductors": 0.8,
+    "diodes": 1.0
+  }
+}

@@ -52,5 +52,14 @@ htmlcov/
 **/working_data/
 **/calibration/output/
 
+# Keep final paper evidence under the workspace-level results directory.
+!/results/
+!/results/**
+/results/**/*.pt
+/results/**/*.pth
+/results/**/*.ckpt
+/results/**/*.pkl
+/results/**/*.pickle
+
 # This nested checkout has its own Git history and is not configured as a submodule.
 /yolov8/tensorrt-alpha/

@@ -1,0 +1,27 @@
+{
+  "model": "Mask R-CNN ResNet-50 FPN v2",
+  "checkpoint": "/home/vision/Users/DSC/results/runs/maskrcnn_s1_1000/best.pth",
+  "checkpoint_epoch": 15,
+  "images": [
+    {
+      "image": "r00_c00_undistorted.png",
+      "detections": 39,
+      "output": "/home/vision/Users/DSC/results/maskrcnn_s1_1000_pcb_image/r00_c00_undistorted"
+    },
+    {
+      "image": "r00_c01_undistorted.png",
+      "detections": 25,
+      "output": "/home/vision/Users/DSC/results/maskrcnn_s1_1000_pcb_image/r00_c01_undistorted"
+    },
+    {
+      "image": "r01_c00_undistorted.png",
+      "detections": 60,
+      "output": "/home/vision/Users/DSC/results/maskrcnn_s1_1000_pcb_image/r01_c00_undistorted"
+    },
+    {
+      "image": "r01_c01_undistorted.png",
+      "detections": 33,
+      "output": "/home/vision/Users/DSC/results/maskrcnn_s1_1000_pcb_image/r01_c01_undistorted"
+    }
+  ]
+}

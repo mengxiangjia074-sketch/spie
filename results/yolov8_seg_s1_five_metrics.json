@@ -1,0 +1,12 @@
+{
+  "model": "YOLOv8l-Seg",
+  "weights": "/home/vision/Users/DSC/results/runs/yolov8_seg_1000/yolov8l_seg_s1/weights/best.pt",
+  "test_images": 32,
+  "ground_truth_instances": 93,
+  "joint_f1": 0.775,
+  "macro_f1": 0.8273911307532389,
+  "mask_ap50_95": 0.7834347669257531,
+  "boundary_f1": 0.7773725615310443,
+  "small_component_recall": 1.0,
+  "raw_metrics": "/home/vision/Users/DSC/results/yolov8_seg_1000_evaluation/metrics.json"
+}

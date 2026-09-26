@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "stop_reason": "max_epochs",
+  "epochs_completed": 1000,
+  "best_val_loss": 0.2626445610076189,
+  "elapsed_seconds": 14624.129270792007
+}

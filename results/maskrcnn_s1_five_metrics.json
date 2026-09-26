@@ -1,0 +1,13 @@
+{
+  "model": "Mask R-CNN ResNet-50 FPN v2",
+  "weights": "/home/vision/Users/DSC/results/runs/maskrcnn_s1_1000/best.pth",
+  "checkpoint_epoch": 15,
+  "test_images": 32,
+  "ground_truth_instances": 93,
+  "joint_f1": 0.8682926829268293,
+  "macro_f1": 0.7925923199607411,
+  "mask_ap50_95": 0.7791886925697327,
+  "boundary_f1": 0.7130852821052452,
+  "small_component_recall": 1.0,
+  "raw_metrics": "/home/vision/Users/DSC/results/maskrcnn_s1_1000_evaluation/metrics.json"
+}

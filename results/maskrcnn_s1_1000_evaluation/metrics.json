@@ -1,0 +1,27 @@
+{
+  "model": "Mask R-CNN ResNet-50 FPN v2",
+  "checkpoint": "/home/vision/Users/DSC/results/runs/maskrcnn_s1_1000/best.pth",
+  "checkpoint_epoch": 15,
+  "test_images": 32,
+  "ground_truth_instances": 93,
+  "predicted_instances": 112,
+  "matched_instances": 92,
+  "joint_f1": 0.8682926829268293,
+  "macro_f1": 0.7925923199607411,
+  "mask_ap50_95": 0.7791886925697327,
+  "boundary_f1": 0.7130852821052452,
+  "small_component_recall": 1.0,
+  "class_f1": {
+    "resistors": 0.9636363636363636,
+    "capacitors": 0.8070175438596493,
+    "ICs": 0.6923076923076923,
+    "inductors": 0.5,
+    "diodes": 1.0
+  },
+  "definitions": {
+    "confidence_threshold": 0.25,
+    "matching_iou": 0.5,
+    "boundary_tolerance_px": 2,
+    "small_area_threshold_px": 4096
+  }
+}
